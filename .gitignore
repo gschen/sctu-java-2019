@@ -1,4 +1,5 @@
-.idea
 *.ipr
 *.iml
 *.iws
+out
+
