@@ -1,6 +1,7 @@
 *.ipr
 *.iml
 *.iws
+*.xml
 .idea
 out
 
