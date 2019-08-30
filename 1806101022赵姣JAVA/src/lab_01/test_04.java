@@ -30,5 +30,6 @@ public class test_04 {
            i++;
        }while(i<=n);
        System.out.println("sum[1:n]"+sum);}
+
         }
 

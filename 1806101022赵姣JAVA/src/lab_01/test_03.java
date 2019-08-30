@@ -9,6 +9,5 @@ public class test_03 {
             }
             System.out.println(i);
         }
-
     }
 }

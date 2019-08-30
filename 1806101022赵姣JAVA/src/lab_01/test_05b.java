@@ -23,7 +23,6 @@ public class test_05b {
                 break;
         }
 
-
     }
 
 }
