@@ -25,7 +25,7 @@ public class Test_05 {
         else {
             System.out.println("您输入的值的范围不在1-5之间（包含1和5），请重新运行程序");
         }
-        //第二种方法
+        //方法二
         switch (x){
             case 1:
                 System.out.println("不及格");
