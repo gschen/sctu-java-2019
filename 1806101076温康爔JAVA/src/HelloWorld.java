@@ -1,6 +1,10 @@
 public class HelloWorld {
+
+    // psvw + tab
     public static void main(String[] args) {
-        int a;
+
+    // sout + tab
+        System.out.println("hello,world！");
     }
 }
 
