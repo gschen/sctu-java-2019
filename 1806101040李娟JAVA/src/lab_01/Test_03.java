@@ -7,6 +7,7 @@ public class Test_03 {
             if(n==79) {
                 break;
             }
+            
             System.out.println(n);
         }
     }
