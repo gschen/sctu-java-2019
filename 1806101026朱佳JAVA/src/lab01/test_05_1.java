@@ -24,6 +24,7 @@ public class test_05_1 {
             default:
                 System.out.println("优秀");
                 break;
+
         }
     }
 }

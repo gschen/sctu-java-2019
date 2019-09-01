@@ -14,7 +14,7 @@ public class test_04_2 {
         }
         while (i<=n);
         System.out.println(sum);
-//do while
+  //do while
     }
 }
 

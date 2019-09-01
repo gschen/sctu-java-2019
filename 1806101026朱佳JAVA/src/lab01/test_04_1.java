@@ -14,6 +14,6 @@ public class test_04_1 {
             sum+= i++;
         }
         System.out.println(sum);
-//while
+  //while
     }
 }

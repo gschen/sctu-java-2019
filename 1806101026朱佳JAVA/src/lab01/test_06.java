@@ -7,7 +7,6 @@ public class test_06 {
         Scanner mas = new Scanner(System.in);
         System.out.println("请输入成绩：");
         int n = mas.nextInt();
-
         if (n>=85)
             System.out.println("A级：85及以上");
         else if (n>=70)

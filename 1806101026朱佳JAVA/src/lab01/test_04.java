@@ -12,7 +12,7 @@ public class test_04 {
             sum+=i;
         }
         System.out.println(sum);
-//for
+     //for
     }
 }
 
