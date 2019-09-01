@@ -1,0 +1,25 @@
+package week01;
+
+import java.util.Scanner;
+
+public class Text2__9__2 {
+    public static void main(String[] args) {
+
+        System.out.println("请输入成绩：");
+        Scanner sc = new Scanner(System.in);
+        int grade = sc.nextInt();
+        if (grade >4) {
+            System.out.println("优秀");
+        } else if (grade >= 4) {
+            System.out.println("良好");
+        } else if (grade >= 3) {
+            System.out.println("中等");
+        } else if (grade >= 2) {
+            System.out.println("及格");
+        } else {
+            System.out.println("不及格");
+        }
+
+
+    }
+}
