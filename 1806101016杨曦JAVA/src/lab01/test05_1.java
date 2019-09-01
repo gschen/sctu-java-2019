@@ -22,6 +22,7 @@ public class test05_1 {
         else{
             System.out.println("优秀");
         }
+        System.out.println();
     }
 
 }
