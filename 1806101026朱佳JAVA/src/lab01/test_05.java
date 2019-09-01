@@ -17,5 +17,6 @@ public class test_05 {
             System.out.printf("良好"); }
         else{
             System.out.printf("优秀"); }
+
     }
 }

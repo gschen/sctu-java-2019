@@ -13,8 +13,7 @@ public class test_04_2 {
             sum+=i++;
         }
         while (i<=n);
-        System.out.println(sum);
-  //do while
+        System.out.println(sum);//do while
     }
 }
 

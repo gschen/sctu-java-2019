@@ -15,5 +15,6 @@ public class test_06 {
             System.out.println("C级：60到70");
         else
             System.out.println("D级：60分以下");
+
     }
 }
