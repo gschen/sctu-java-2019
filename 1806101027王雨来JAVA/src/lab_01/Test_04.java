@@ -33,7 +33,7 @@ class Test_041{
 }
 
 //使用dowhile循环
-class Test_043{
+class Test_042{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("请输入n：");
