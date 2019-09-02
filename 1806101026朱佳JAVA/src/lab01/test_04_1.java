@@ -2,17 +2,18 @@ package lab01;
 
 import java.util.Scanner;
 
-public class test_04 {
+public class test_04_1 {
     public static void main(String[] args) {
-        Scanner mas = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("请输入一个整数n：");
-        int n = mas.nextInt();
+        int n = sc.nextInt();
         int sum = 0;
-        for (int i = 1; i <=n ; i++) {
-            sum+=i;
+        int i = 0;
+        while (i <= n){
+
+            sum+= i++;
         }
         System.out.println(sum);
-        //for
+        //while
     }
 }
-
