@@ -18,7 +18,6 @@ public class test_04 {
         }
         System.out.println("while循环求和的结果"+n);
 
-
         int t = 0;
         do{
             t++;
