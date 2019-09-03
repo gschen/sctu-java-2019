@@ -8,15 +8,15 @@ public class test_05 {
         System.out.println("请输入一个1-5的数:");
         int score = mas.nextInt();
         if(score==1){
-            System.out.printf("不及格"); }
+            System.out.println("不及格"); }
         else if(score==2){
-            System.out.printf("及格"); }
+            System.out.println("及格"); }
         else if(score==3){
-            System.out.printf("中等"); }
+            System.out.println("中等"); }
         else if(score==4){
-            System.out.printf("良好"); }
+            System.out.println("良好"); }
         else{
-            System.out.printf("优秀"); }
+            System.out.print("优秀"); }
 
     }
 }
