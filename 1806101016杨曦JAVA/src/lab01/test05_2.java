@@ -2,7 +2,6 @@ package lab01;
 
 import java.util.Scanner;
 
-
 public class test05_2 {
     public static void main(String[] args) {
         System.out.println("请输入分数：");
@@ -27,7 +26,6 @@ public class test05_2 {
             case 5:
                 str=("优秀");
                 break;
-
 
                 }
 

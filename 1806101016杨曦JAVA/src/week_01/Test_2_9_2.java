@@ -1,5 +1,6 @@
 package week_01;
 import java.util.Scanner;
+
 public class Test_2_9_2 {
     public static void main(String[] args) {
         System.out.println("请输入分数：");
