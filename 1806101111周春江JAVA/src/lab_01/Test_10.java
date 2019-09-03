@@ -2,16 +2,14 @@ package lab_01;
 
 public class Test_10 {
     public static void main(String[] args) {
-        int h = 0;
-        for (int i = 1; i <= 100; i += 2) {
-            boolean b = false;
-            for (int j = 2; j < i; j++) {
-                if (i % j == 0){
-                    b = false;
-                    break;
-                }else {
-                    b = true;
-                }
+        int a;
+        for (int i = 2; i <= 100 ; i++) {
+            a = 2;
+            while (i % a != 0){
+                a++;
+            }
+            if (a == i){
+                System.out.println(i);
             }
 
         }
