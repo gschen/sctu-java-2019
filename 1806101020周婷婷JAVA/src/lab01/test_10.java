@@ -21,5 +21,6 @@ public class test_10 {
             if(num%i == 0)
                 return false;
         return true;
+
     }
 }

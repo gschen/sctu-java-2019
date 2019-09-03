@@ -10,5 +10,6 @@ public class Test_04_01 {
         }
         System.out.println("sum[1:n]=" + sum);
 
+
     }
 }

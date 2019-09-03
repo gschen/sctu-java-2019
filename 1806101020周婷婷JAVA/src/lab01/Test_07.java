@@ -18,6 +18,7 @@ public class Test_07 {
             else {
                 System.out.println("对了就是：" + i);
                 break;
+
             }
         }
     }

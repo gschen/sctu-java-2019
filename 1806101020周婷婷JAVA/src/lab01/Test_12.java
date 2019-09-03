@@ -10,6 +10,7 @@ public class Test_12 {
             if (i==(a*a*a+b*b*b+c*c*c)){
                 System.out.println(i);}
 
+
         }
     }
 }

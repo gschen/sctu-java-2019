@@ -6,6 +6,7 @@ public class Test_02 {
         for(i=100;i<=300;i++){
             if(i%3==0){
                 continue;
+
             }
             System.out.println("不能被3整除的数有："+(i));
         }

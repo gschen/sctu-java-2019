@@ -5,6 +5,7 @@ public class Test_04_03 {
         int i, n = 100;
         long sum = 0;
 
+
 //do while
         i=1;
         do {

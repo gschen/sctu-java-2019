@@ -13,6 +13,7 @@ public class Test_05_01 {
             System.out.println("良好");
         } else {
             System.out.println("优秀");
+
         }
     }
 

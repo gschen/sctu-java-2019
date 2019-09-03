@@ -11,6 +11,7 @@ public class Test_04_02 {
             sum += i;
             i++;
         }
+
         System.out.println("sum[1:n]=" + sum);
     }
 }

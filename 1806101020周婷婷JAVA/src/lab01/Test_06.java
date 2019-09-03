@@ -16,6 +16,7 @@ public class Test_06 {
         else
             System.out.println("D级：60分以下");
 
+
     }
 
 }
