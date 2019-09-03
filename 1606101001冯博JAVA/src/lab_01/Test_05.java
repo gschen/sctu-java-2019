@@ -1,13 +1,12 @@
 package lab_01;
-
+import java.util.*;
 public class Test_05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("请输入一个1-5之间的数：");
         int i = sc.nextInt();
-        int n=0;
         String str="";
-        n = score % 10;
-        switch (n){
+        switch (i){
             case 1:
                 str = "不及格";
                 break;
@@ -26,12 +25,6 @@ public class Test_05 {
             default:
                 str = "输入有误";
             }
-
             System.out.println("学生成绩为："+ str);
-
     }
-
-
-
-
 }
