@@ -1,4 +1,4 @@
-package Week_1;
+package week_01;
 
 public class Test_2_11 {
     public static void main(String[] args) {
@@ -19,5 +19,7 @@ public class Test_2_11 {
         for (int i = 0; i < sum; i++) {
             System.out.print(" ");
         }
+
     }
 }
+

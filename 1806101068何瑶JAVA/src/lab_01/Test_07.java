@@ -1,6 +1,6 @@
 package lab_01;
 
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
+
 
 import java.util.Random;
 import java.util.Scanner;
