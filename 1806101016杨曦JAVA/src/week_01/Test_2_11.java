@@ -2,22 +2,34 @@ package week_01;
 
 public class Test_2_11 {
     public static void main(String[] args) {
-        String str = "ABCDEFGHIJKLMNOPQRST";
-        int index = 0;
-        for (int i = 0; i < 8; i++) {
-            int sum = (int)Math.abs(i-3.5);
-            printTab(sum);
-            for (int j=0;j<4-sum;j++) {
-                System.out.print(str.charAt(index)+" ");
-                index += 1;
-            }
-            System.out.println();
-        }
-    }
 
-    private static void printTab(int sum) {
-        for (int i = 0; i < sum; i++) {
-            System.out.print(" ");
+            int i,j,k,num;
+            char ch;
+            num='A'-1;
+            for(i=1;i<=4;i++)
+            {
+                for(k=1;k<=4-i;k++)
+                    System.out.print(" ");
+                for(j=1;j<=i;j++)
+                {
+                    num=num+1;
+                    ch=(char)num;
+                    System.out.print(ch+" ");
+                }
+                System.out.println();
+            }
+            for (i=1;i<=4;i++)
+            {
+                for (k=1;k<=i-1;k++)
+                    System.out.print(" ");
+                for(j=1;j<=5-i;j++)
+                {
+                    num=num+1;
+                    ch=(char)num;
+                    System.out.print(ch+" ");
+                }
+                System.out.println();
+            }
         }
-    }
 }
+

@@ -1,6 +1,6 @@
 package week_01;
 import java.util.Scanner;
-public class Test_2_9 {
+public class Test_2_9_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入n的值:");
