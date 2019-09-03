@@ -1,5 +1,6 @@
 package lab01;
-
+/*6、	编程输入学生的学习成绩的等级，给出相应的成绩范围。
+设A级为85分以上（包括85）；B级为70分以上（包括70分）；C级为60分以上（包括60分）；D级为60分以下。*/
 public class Test_06 {
     public static void main(String[] args) {
         int score = 82;
