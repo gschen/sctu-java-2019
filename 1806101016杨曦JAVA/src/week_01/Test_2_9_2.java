@@ -1,8 +1,7 @@
-package lab01;
-
+package week_01;
 import java.util.Scanner;
 
-public class test05_2 {
+public class Test_2_9_2 {
     public static void main(String[] args) {
         System.out.println("请输入分数：");
         Scanner input = new Scanner(System.in);
@@ -27,8 +26,9 @@ public class test05_2 {
                 str=("优秀");
                 break;
 
-                }
+        }
 
         System.out.println(str);
     }
 }
+
