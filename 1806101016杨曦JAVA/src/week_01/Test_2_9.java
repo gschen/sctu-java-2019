@@ -19,6 +19,5 @@ public class Test_2_9 {
 
             System.out.println();
         }
-
     }
 }
