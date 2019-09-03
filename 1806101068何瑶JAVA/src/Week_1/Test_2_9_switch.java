@@ -2,20 +2,19 @@ package Week_1;
 
 public class Test_2_9_switch {
     public static void main(String[] args) {
-        int score=1,n=0;
+        int score=1;
         String str="";
-        n=score*2;
-        switch (n){
-            case 4:
+        switch (score){
+            case 2:
                 str="及格";
                 break;
-            case 6:
+            case 3:
                 str="中等";
                 break;
-            case 8:
+            case 4:
                 str="良好";
                 break;
-            case 10:
+            case 5:
                 str="优秀";
                 break;
             default:

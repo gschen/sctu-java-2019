@@ -1,6 +1,6 @@
-package Week_1;
+package lab01;
 
-public class Test_2_11 {
+public class test09 {
     public static void main(String[] args) {
         String str = "ABCDEFGHIJKLMNOPQRST";
         int index = 0;
@@ -21,3 +21,5 @@ public class Test_2_11 {
         }
     }
 }
+
+
