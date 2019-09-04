@@ -16,7 +16,7 @@ public class Test_09 {
                 System.out.print(obj[x1]);
                 x1++;
             }
-            System.out.print("\n");//输出换行符
+            System.out.print("\n");//输出换行符。
         }
 
 

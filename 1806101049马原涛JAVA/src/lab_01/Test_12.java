@@ -5,7 +5,7 @@ public class Test_12 {
     public static void main(String[] args) {
         for(int a=100;a<=1000;a++){
             if(fun(a)){
-                System.out.println(a+"是水仙花数");
+                System.out.println(a+"是水仙花数：");
             }
         }
     }

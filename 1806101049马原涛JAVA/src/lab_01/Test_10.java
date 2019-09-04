@@ -12,7 +12,7 @@ public class Test_10 {
             }
         }
     }
-
+//。
     public static boolean isPrimeNumber(int num){
         int k = (int) Math.sqrt(num);
         if(num == 2)
