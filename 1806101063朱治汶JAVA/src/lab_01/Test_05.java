@@ -2,7 +2,7 @@ package lab_01;
 
 import java.util.Scanner;
 
-public class test_05 {
+public class Test_05 {
     public static void main(String[] args) {
         double ran = Math.random();
         int i = (int)(ran * 5);

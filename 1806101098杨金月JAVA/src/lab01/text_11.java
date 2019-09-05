@@ -1,10 +1,10 @@
-package lab_01;
+package lab01;
 import java.util.Scanner;
-public class Test_11 {
+public class text_11 {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int x=input.nextInt();
-        if (1<=x & x<=99999){
+        if (1<=x & x<=9999){
             String y=String.valueOf(x);
             StringBuilder z=new StringBuilder(y);
             z.reverse();

@@ -1,6 +1,6 @@
-package lab_01;
+package lab01;
 
-public class Test_09 {
+public class text_09 {
     public static void main(String[] args) {
         String[] obj=new String[]{"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T"};
         int num=0;
