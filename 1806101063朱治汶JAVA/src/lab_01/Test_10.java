@@ -1,6 +1,6 @@
 package lab_01;
 
-public class test_10 {
+public class Test_10 {
     public static void main(String[] args) {
         int a;
         for (int i = 2; i <= 100 ; i++) {

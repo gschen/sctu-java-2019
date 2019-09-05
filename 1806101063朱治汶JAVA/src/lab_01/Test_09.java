@@ -1,6 +1,6 @@
 package lab_01;
 
-public class test_09 {
+public class Test_09 {
     public static void main(String[] args) {
         //上三角
         for (int i = 1; i <=4 ; i++) {
