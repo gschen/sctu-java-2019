@@ -22,6 +22,4 @@ public class Address {
         System.out.println("国家为："+ a.city+"\n"+"省份为："+a.province+"\n"+"城市为："+a.country+"\n"+"街道为："+a.street+"\n"+"邮编为："+a.postcode);
 
     }
-
 }
-
