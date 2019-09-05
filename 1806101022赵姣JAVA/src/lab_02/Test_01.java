@@ -10,7 +10,8 @@ public class Test_01 {
 
          //行为
 
-        void printInfo(){
+
+        void printInfo(){              //行为 成员方法
             System.out.println("国家："+this.country);
             System.out.println("省份："+this.province);
             System.out.println("城市："+this.city);
