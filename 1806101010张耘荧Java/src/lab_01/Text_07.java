@@ -1,5 +1,4 @@
 package lab_01;
-
 import java.util.Scanner;
 
 public class Text_07 {
@@ -7,8 +6,6 @@ public class Text_07 {
         int n=(int)(Math.random()*100);
         //接受从控制台的输入
         Scanner input=new Scanner(System.in);
-
-
 
         while (true){
             System.out.println("请输入成绩结果：");
