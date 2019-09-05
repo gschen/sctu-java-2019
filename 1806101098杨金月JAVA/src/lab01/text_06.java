@@ -1,12 +1,11 @@
-package lab_01;
+package lab01;
 import java.util.Scanner;
-
-public class Test_06 {
+public class text_06 {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         System.out.print("请输入你的等级：");
         String x=input.next();
-        switch (x){
+        switch (x) {
             case "A":
                 System.out.println("你的成绩在85分以上包含85分");
                 break;
@@ -20,8 +19,9 @@ public class Test_06 {
                 System.out.println("你的成绩在60分以下（不包含60分）");
                 break;
             default:
-                System.out.println("没有此等级，你是外星来的吧");
+                System.out.println("输入错误");
                 break;
         }
     }
 }
+
