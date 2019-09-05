@@ -8,7 +8,7 @@ public class Test_03 {
         private int math;
         private int English;
         private int all;
-        private int average;
+        private float average;
         private int top;
         private int low;
         public Students(int computer, int math, int English){
