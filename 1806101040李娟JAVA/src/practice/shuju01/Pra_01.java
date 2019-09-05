@@ -1,0 +1,16 @@
+package practice.shuju01;
+
+//自动类型转换
+
+//必须满足转换前的数据类型的位数要低于转换后的数据类型
+
+public class Pra_01 {
+    public static void main(String[] args){
+        char c1='a';//定义一个char类型   16位
+        int i1 = c1;//char自动类型转换为int  32位
+        System.out.println("char自动类型转换为int后的值等于"+i1);
+        char c2 = 'A';//定义一个char类型
+        int i2 = c2+1;//char 类型和 int 类型计算
+        System.out.println("char类型和int计算后的值等于"+i2);
+    }
+}
