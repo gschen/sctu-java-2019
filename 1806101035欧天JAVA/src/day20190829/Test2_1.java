@@ -1,5 +1,6 @@
 package day20190829;
 
+
 public class Test2_1 {
     public static void main(String[] args) {
         final char SQ=39;
