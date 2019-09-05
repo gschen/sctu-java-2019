@@ -16,5 +16,6 @@ public class Test_11 {
             System.out.println("它是回文数。");
         else
             System.out.println("它不是回文数。");
+
     }
 }

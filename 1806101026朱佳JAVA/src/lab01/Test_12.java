@@ -8,7 +8,8 @@ public class Test_12 {
             b=i/10%10;
             c=i%10;
             if (i==(a*a*a+b*b*b+c*c*c)){
-                System.out.println(i);}
+                System.out.println(i);
+            }
         }
     }
 }

@@ -19,6 +19,7 @@ public class Test_10 {
                 if (h == 5){
                     System.out.println();
                     h=0;
+
                 }
             }
         }
