@@ -3,8 +3,7 @@ package day20190905;
 public class Classroom {
     //1.属性
     //长、宽、高……
-    String name;
-    int leight;
+    String leight;
     int weight;
     int hight;
 
