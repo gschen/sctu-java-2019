@@ -14,6 +14,7 @@ public class Test_2_12 {
         }while (i<=n);
         System.out.println(sum);
 
+
     }
 }
 class Test__2_12_01{

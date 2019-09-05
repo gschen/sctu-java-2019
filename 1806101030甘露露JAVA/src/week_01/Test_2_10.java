@@ -8,6 +8,7 @@ public class Test_2_10 {
             for(col=1;col<=row;col++){
                 System.out.print(row+"*"+col+"="+row*col+" " );
             }
+
             System.out.println("");
         }
     }

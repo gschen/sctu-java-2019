@@ -20,7 +20,6 @@ public class Test_2_9 {
         else
             System.out.println("你输入的这个数字的超纲了，我无法识别！");
 
-
     }
 }
 

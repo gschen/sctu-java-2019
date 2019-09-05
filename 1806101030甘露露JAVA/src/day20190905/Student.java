@@ -7,6 +7,7 @@ public class Student {
     int age;
     int gender;
 
+
     // 行为：学习，跑步，，，
     void study(){}
     //void fly(){}    抽象要符合现实世界
