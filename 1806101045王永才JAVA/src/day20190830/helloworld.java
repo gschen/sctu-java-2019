@@ -1,4 +1,4 @@
-package src.day20190830;
+package day20190830;
 
 public class helloworld {
     public static void main(String[] args) {
