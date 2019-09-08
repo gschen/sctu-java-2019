@@ -18,6 +18,9 @@ public class Student {
         this.math = math;
         this.eng = eng;
     }
+
+    //2、计算总分、平均分、最高分、最低分，并输出学生信息
+
     public void sum() {
         System.out.println("总分: " + String.format("%.2f",(this.pc + this.math + this.eng)));
     }
