@@ -7,6 +7,7 @@ public class Test_2_14 {
             for(j = 2; j <= i/2; j++){
                 if(i % j == 0)
                     break;
+
             }
             if(j > i/2){
                 System.out.println(i);
