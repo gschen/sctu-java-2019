@@ -54,6 +54,7 @@ public class Student {
         return ban;
     }
 
+
     public String toString(){
         return "学号："+this.getNum()+"\n"+
                 "班级："+this.getBan()+"\n"+
