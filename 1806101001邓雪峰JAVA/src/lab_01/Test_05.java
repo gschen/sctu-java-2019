@@ -12,6 +12,7 @@ public class Test_05 {
                 System.out.println("及格");
                 break;
             case 3:
+
                 System.out.println("中等");
                 break;
             case 4:

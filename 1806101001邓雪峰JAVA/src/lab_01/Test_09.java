@@ -13,6 +13,7 @@ public class Test_09 {
                 System.out.print((char)c + "   ");
 
             }
+
             System.out.println();
         }
 

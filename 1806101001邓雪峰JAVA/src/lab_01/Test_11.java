@@ -28,6 +28,7 @@ public class Test_11 {
             else
                 d = true;
         }
+
         if (d == false){
             System.out.println("不是回文");
         }

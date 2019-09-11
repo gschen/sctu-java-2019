@@ -11,6 +11,7 @@ public class Test_06 {
             System.out.println("A级");
         }
         else if (n >= 70 ){
+
             System.out.println("B级");
         }
         else if (n >= 60 ){

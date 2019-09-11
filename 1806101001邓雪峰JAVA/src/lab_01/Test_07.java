@@ -9,6 +9,7 @@ public class Test_07 {
         int a = 0;
 
         while (a != n){
+
             Scanner sc = new Scanner(System.in);
             System.out.print("请输入所猜数字：");
             a = sc.nextInt();

@@ -11,6 +11,7 @@ public class Test_04 {
 
         int sum1 = 0;
         int j = 1;
+
         while (j<=100 ){
             sum1+=j;
             j++;
