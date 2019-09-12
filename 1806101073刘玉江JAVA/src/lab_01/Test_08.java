@@ -7,6 +7,8 @@ public class Test_08 {
             for (int j = 1;j<=i;j++){
                 System.out.print(j+"*"+i+"="+i*j+"\t");
             }
+
+
             System.out.println();
         }
 
