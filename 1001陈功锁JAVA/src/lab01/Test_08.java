@@ -20,6 +20,5 @@ public class Test_08 {
 
             System.out.println(); //pirntln换行
         }
-
     }
 }
