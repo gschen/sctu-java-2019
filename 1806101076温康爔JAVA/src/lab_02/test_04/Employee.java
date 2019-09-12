@@ -64,12 +64,3 @@ public class Employee {
     }
 }
 
- class Test4 {
-
-     public static void main(String[] args) {
-            Employee employee = new Employee("北北",19921021,2100,1500);
-            employee.growthin();                                     //工资增长
-            System.out.println(employee);
-        }
-
-    }
