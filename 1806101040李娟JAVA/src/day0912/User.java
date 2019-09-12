@@ -1,6 +1,14 @@
 package day0912;
 
+//在User（也就是这里）上面按ctrl+h就可以看到所有的继承关系
+
 public class User {
+
+    User(){
+        //teacher继承的它
+        System.out.println("这是User");
+    }
+
 
     //1.成员变量
     String name;
