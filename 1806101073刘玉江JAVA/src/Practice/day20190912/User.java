@@ -1,6 +1,9 @@
-package day20190912;
+package Practice.day20190912;
 
 public class User {
+    User(){
+
+    }
     User(int age,String name,String birthday){
         this.age = age;
         this.name = name;
