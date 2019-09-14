@@ -6,8 +6,7 @@ public class Test_06 {
         Scanner input=new Scanner(System.in);
         System.out.print("请输入你的等级：");
     String x=input.next();
-        if (x.
-                ("A")){
+        if (x.equals("A")){
         System.out.println("你的成绩在85分以上包含85分");
     }
         else if (x.equals("B")){
