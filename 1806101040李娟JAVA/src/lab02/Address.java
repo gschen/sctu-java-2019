@@ -1,6 +1,8 @@
 package lab02;
 
 public class Address {
+
+    //属性
     String country;
     String province;
     String city;
@@ -17,7 +19,7 @@ public class Address {
         System.out.println("邮编："+this.code);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {  //main方法是程序的入口  
         int a;
         Address sctu=new Address();//定义一个变量sctu,变量sctu的类型是TestAddress
         //new Address()实例化

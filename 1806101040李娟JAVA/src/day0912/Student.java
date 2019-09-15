@@ -1,5 +1,6 @@
 package day0912;
 
+//Student和Run是一起的
 public class Student {
     String name;
     int age;
