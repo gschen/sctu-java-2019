@@ -13,8 +13,8 @@ public class Test {
 
 
         System.out.println("姓名："+s1.name+"\n"+
-               "年龄："+s1.age+"\n"+
-               "身份证号："+s1.shengnum+"\n"+
+                "年龄："+s1.age+"\n"+
+                "身份证号："+s1.shengnum+"\n"+
                 "学号："+s1.sno+"\n"+
                 "所在学校："+s1.xuexiao);
     }
