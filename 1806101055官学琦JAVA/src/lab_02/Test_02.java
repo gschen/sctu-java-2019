@@ -4,24 +4,31 @@ import java.util.Scanner;
 
 public class Test_02 {
     public static void main(String[] args) {
-        Test_02 r=new Test_02();
-        r.Area();
-        r.Perimeter();
+        System.out.println("请输入圆的半径：");
+        Scanner input=new Scanner(System.in);
+        float r=input.nextFloat() ;
+        Circular c=new Circular();
+        c.area(r);
+        c.perimeter(r) ;
     }
 
-    Scanner input=new Scanner(System.in);
-    double r=input.nextDouble();
-    //求周长
-    public void Perimeter(){
-        System.out.println(this.r*2*3.14);
-    }
-    //求面积
-    public void Area(){
-        System.out.println(this.r*this.r*3.14);
-    }
+
 }
 
+class Circular{
+    private float r;
 
+    public void perimeter(float r){
+        //周长等于3.14*2*r
+        System.out.println("周长为"+(3.14*2*r));
+    }
+
+    public void area(float r){
+        //面积等于3.14*r*r
+        System.out.println("面积为"+(3.14*r*r));
+    }
+
+}
 
 
 

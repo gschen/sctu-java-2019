@@ -1,5 +1,7 @@
 package day0912;
 
+
+//Clent 是 User的一部份
 public class Clent {
     public static void main(String[] args) {
 
