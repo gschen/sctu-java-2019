@@ -1,6 +1,6 @@
 package lab_02;
 
-public class Cube {
+public class Test_03_Cube {
     double l;
     double w;
     double h;
@@ -14,12 +14,10 @@ public class Cube {
     }
 
     public static void main(String[] args) {
-        Cube bulk = new Cube();
+        Test_03_Cube bulk = new Test_03_Cube();
         bulk.l = 201.1;
         bulk.w = 100.2;
         bulk.h = 200.2;
         bulk.print();
     }
-
-
 }
