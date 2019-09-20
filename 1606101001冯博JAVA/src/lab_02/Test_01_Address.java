@@ -1,8 +1,6 @@
 package lab_02;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
-
-public class Address {
+public class Test_01_Address {
     String country;
     String province;
     String city;
@@ -12,11 +10,12 @@ public class Address {
     //2.行为
     void printInfo(){
         System.out.println("国籍： " + this.country);
+        System.out.println("省份为： " + this.province);
 
     }
 
     public static void main(String[] args) {
-    Address sctu = new Address();
+    Test_01_Address sctu = new Test_01_Address();
     sctu.country = "China";
     sctu.province = "Sichuan";
     sctu.city = "Chendu";
