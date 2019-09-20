@@ -3,7 +3,7 @@ package lab_02;
 public class Test_09 {
     public static void main(String[] args) {
         Student2 student2=new Student2(11,"s1","张三","男",21);
-
+        //
         System.out.println(student2.toString());
     }
 }
