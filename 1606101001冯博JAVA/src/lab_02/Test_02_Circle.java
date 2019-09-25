@@ -1,6 +1,6 @@
 package lab_02;
 
-public class Circle {
+public class Test_02_Circle {
     //1.属性
     double radius;
     //2.成员方法
@@ -12,7 +12,7 @@ public class Circle {
         System.out.println("周长为： " + 2 * 3.14 * this.radius);
     }
     public static void main(String[] args) {
-        Circle c1 = new Circle();
+        Test_02_Circle c1 = new Test_02_Circle();
         c1.radius = 1;
         c1.calArea();
         c1.calLength();
