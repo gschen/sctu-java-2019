@@ -1,4 +1,4 @@
-package lab_02;
+package lab_02.Test_02;
 
 public class Test_02_Circle {
     //1.属性

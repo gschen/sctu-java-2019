@@ -7,8 +7,6 @@ public class Triangle {
     double perimeter;
     double area;
     void setPerimeter(){
-        if (){
 
-        }
     }
 }

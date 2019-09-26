@@ -1,4 +1,4 @@
-package lab_02;
+package lab_02.Test_01;
 
 public class Test_01_Address {
     String country;

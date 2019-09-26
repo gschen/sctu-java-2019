@@ -1,6 +1,6 @@
-package lab_02;
+package lab_02.Test_04;
 
-public class Test_05_Staff {
+public class Staff {
     String name;
     int number;
     double oldSalary;
@@ -14,7 +14,7 @@ public class Test_05_Staff {
         System.out.println("员工薪水增长额：" + this.increase);
     }
     public static void main(String[] args) {
-     Test_05_Staff fb = new Test_05_Staff();
+     Staff fb = new Staff();
      fb.name = "冯博";
      fb.number = 01;
      fb.oldSalary = 99999.5;
