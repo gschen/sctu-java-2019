@@ -17,6 +17,7 @@ public class Test_18 {
         name.charAt(name.length() - 1);
 
         name.indexOf('M');
+        System.out.println("字符串的第一个字符：");
         name.indexOf("crazy");
 
         String[] words = name.split(" ");
