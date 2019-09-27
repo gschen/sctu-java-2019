@@ -4,7 +4,7 @@ package lab02.test08;
 // 一照相机类Camera、一手机类Mobile，让它们都实现该接口。
 
 interface Usb{
-    public abstract int start(int a);
+    public abstract int start(int a);   //只定义 不实现   且接口不能实例化
     public abstract int stop(int b);
 }
 
