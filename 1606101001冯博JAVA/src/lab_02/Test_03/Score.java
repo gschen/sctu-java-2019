@@ -1,6 +1,6 @@
-package lab_02;
+package lab_02.Test_03;
 
-public class Test_04_Score {
+public class Score {
     //1.属性
     double computerGrade;
     double mathGrade;
@@ -33,7 +33,7 @@ public class Test_04_Score {
         }}
 
     public static void main(String[] args) {
-        Test_04_Score student1 = new Test_04_Score();
+        Score student1 = new Score();
         student1.englishGrade = 95.5;
         student1.mathGrade = 85.3;
         student1.computerGrade = 99.2;
