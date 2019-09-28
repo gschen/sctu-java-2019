@@ -9,6 +9,7 @@ public class Mobile implements Usb{
     }
     @Override
     public void stop() {
+
         System.out.println("Usb disk writer stop!");
     }
 }
