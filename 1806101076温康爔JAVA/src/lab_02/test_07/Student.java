@@ -7,7 +7,7 @@ public class Student extends Person {
     private int sno;
 
     public Student(String name, int age, String idno) {
-        super(name, age, idno);
+        super(name, age, idno);//super关键字
     }
 
     public String getSchool(){

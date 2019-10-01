@@ -1,6 +1,7 @@
-package lab_02.text_08;
+package day20190919;
 
-public class UsbDiskWriter implements Usb {
+public class UsbDiskWriter implements USB{
+
     @Override
     public void start() {
         System.out.println("usb disk writer start");
@@ -9,6 +10,6 @@ public class UsbDiskWriter implements Usb {
     @Override
     public void stop() {
         System.out.println("usb disk writer stop");
+
     }
 }
-
