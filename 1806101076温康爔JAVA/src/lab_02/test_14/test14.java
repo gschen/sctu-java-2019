@@ -1,7 +1,7 @@
 package lab_02.test_14;
 
 //测试类
-public class test {
+public class test14 {
     public static void main(String[] args) {
         Circle circle = new Circle();
         circle.setd(4);

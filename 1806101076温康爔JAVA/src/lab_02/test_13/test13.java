@@ -3,7 +3,7 @@ package lab_02.test_13;
 import com.sun.java_cup.internal.runtime.Scanner;
 import com.sun.java_cup.internal.runtime.Symbol;
 
-public class test {
+public class test13 {
     public static void main(String[] args) {
         int n=6;
         double []data=new double[n];
