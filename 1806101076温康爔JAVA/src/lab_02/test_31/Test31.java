@@ -1,10 +1,9 @@
-package lab_02;
-
-import com.sun.javafx.collections.MappingChange;
+package lab_02.test_31;
 
 import java.util.*;
 
-public class Test_31 {
+
+public class Test31 {
     public static void main(String[] args) {
         int a=9;
         //保存10个整数0-9
@@ -22,7 +21,7 @@ public class Test_31 {
         ss[4]="dl";
 
         //list集合
-        List<String> list=new ArrayList<String>();//list添加元素不唯一
+        List<String> name = new ArrayList<>();//list添加元素不唯一
         list.add("hello");
         list.add("dl");
         list.add("dl");
@@ -35,7 +34,7 @@ public class Test_31 {
         myset.add("hello");
         myset.add("dl");
 
-        for (String s:list){
+        for (String s:name){
             System.out.println(s);
         }
 
