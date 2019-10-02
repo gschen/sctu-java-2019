@@ -5,9 +5,7 @@ import java.util.LinkedList;//序列化，和ArrayList不同的是它是链表�
 
 public class list {
     public static void main(String[] args) {
-
         LinkedList<String> link = new LinkedList<String>();
-
         link.add("apple");
         link.add("grape");
         link.add("banana");
