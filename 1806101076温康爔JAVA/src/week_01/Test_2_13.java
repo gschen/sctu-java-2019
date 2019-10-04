@@ -1,5 +1,7 @@
 package week_01;
 
+//编写一个Java程序求解下列方程的解2x^3-4x^2+3x-6=0
+
 import org.jcp.xml.dsig.internal.dom.ApacheNodeSetData;
 
 import java.util.Scanner;
