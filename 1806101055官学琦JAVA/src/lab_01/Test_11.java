@@ -7,6 +7,7 @@ public class Test_11 {
         Scanner input=new Scanner(System.in);
         int x=input.nextInt();
         if (1<=x & x<=9999){
+            //将int x转化为String y
             String y=String.valueOf(x);
             StringBuilder z=new StringBuilder(y);
             z.reverse();
