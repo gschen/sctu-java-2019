@@ -18,5 +18,18 @@ public class Test_19 {
         StringBuilder z=new StringBuilder(y);
         z.reverse();
         System.out.println(z);
+        /*
+        String str = "HelloWorld";
+	  char []s = str.toCharArray();
+	  StringBuffer buffer = new StringBuffer();
+	  for(int i = str.length() - 1;i >= 0;i--) {
+		  if('A'<=s[i]&&s[i]<='Z')
+			  buffer.append(String.valueOf(s[i]).toLowerCase());
+		  else
+			  buffer.append(String.valueOf(s[i]).toUpperCase());
+
+	  }
+	  System.out.println(buffer.toString());
+         */
     }
 }
