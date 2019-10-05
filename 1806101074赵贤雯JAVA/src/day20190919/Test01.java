@@ -1,6 +1,6 @@
 package day20190919;
 
-public class test01 {
+public class Test01 {
     //成员变量
     int a;
     static float b;   //static修饰类的！常量！

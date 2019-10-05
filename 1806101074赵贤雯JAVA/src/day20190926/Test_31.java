@@ -1,4 +1,4 @@
-package lab02.Test_31;
+package day20190926;
 
 import java.util.*;
 
@@ -22,13 +22,14 @@ public class Test_31 {
 
         //List集合
         //泛型
-        List<String> list = new ArrayList<String>();
+        /*
+        List<String> list = new myArrayList<String>();
         list.add("world");
         list.add("world");
         list.add("world");
         list.add("world");
         list.add("world");
-/*
+
         for (String s : list){
             System.out.println(s);
         }
