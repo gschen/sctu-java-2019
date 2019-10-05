@@ -9,6 +9,7 @@ public class Test_22 {
                 chars[i]+=32;
             }
             if (chars[i]>=48&&chars[i]<=57||chars[i]>65&&chars[i]<=90||chars[i]>=97&&chars[i]<=122 ){
+
             }
             else {
                 chars[i]='#';
