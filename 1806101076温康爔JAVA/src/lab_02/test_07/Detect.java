@@ -2,7 +2,7 @@ package lab_02.test_07;
 
 public class Detect {
     public static void main(String[] args) {
-        Person d = new Person("Allen",20,"513029************");
+        Person d = new Person("Allen",27,"513029************");
         System.out.println(d.getInfo());
         Student l = new Student("Alice",20,"51302919**********");
        // l.setName("Alice");

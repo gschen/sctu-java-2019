@@ -26,7 +26,7 @@ public class Person {
     }
 
     public String getIdno(){
-        return idno=idno;
+        return idno;
     }
     public void setIdno(String idno){
         this.idno=idno;

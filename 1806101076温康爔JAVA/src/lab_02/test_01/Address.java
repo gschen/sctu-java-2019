@@ -26,4 +26,4 @@ public class Address {
             sctu.postalcode = "610000";
             sctu.printInfo();
         }
-    }
+}
