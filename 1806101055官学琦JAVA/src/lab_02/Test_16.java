@@ -1,6 +1,6 @@
 package lab_02;
 
-public class Text_16 {
+public class Test_16 {
     public static void main(String[] args) {
         Add add=new Add();
         Reduce reduce=new Reduce();
