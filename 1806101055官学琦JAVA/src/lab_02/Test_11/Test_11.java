@@ -1,4 +1,4 @@
-package lab_02;
+package lab_02.Test_11;
 
 public class Test_11 {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Test_11 {
 
     }
 }
-class Rectangle implements Printx{
+class Rectangle implements Printx {
     double length;
     double width;
     public Rectangle(double length,double width){
