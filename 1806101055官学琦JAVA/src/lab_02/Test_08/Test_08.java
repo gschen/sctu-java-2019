@@ -1,6 +1,6 @@
-package lab_02;
+package lab_02.Test_08;
 
-public class Test_08 implements USB{
+public class Test_08 implements USB {
 
     @Override
     public void start() {
