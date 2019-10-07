@@ -1,6 +1,4 @@
-package lab_02;
-
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
+package lab_02.Test_14;
 
 public class Test_14 {
     public static void main(String[] args) {
