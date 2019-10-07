@@ -1,6 +1,4 @@
-package lab_02;
-
-import java.util.Scanner;
+package lab_02.Test_01;
 
 public class Test_01 {
     public static void main(String[] args) {
