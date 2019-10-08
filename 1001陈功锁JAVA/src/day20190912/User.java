@@ -3,7 +3,11 @@ package day20190912;
 /**
  * Created by Administrator on 2019-9-12.
  */
-public class User {
+public class User {// ctrl + h
+
+    User(){
+
+    }
 
     // 3. 非常特殊的函数。 -- 构造函数
     // 1) 函数的名字与类名一致；
