@@ -10,6 +10,7 @@ public class Test {
             try{
                 i = 1/0;
             }
+
             catch (ArithmeticException e){
                 e.printStackTrace();// System.out.println("这是除0错误");
             }
