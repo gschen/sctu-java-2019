@@ -1,4 +1,4 @@
-package day20190905;
+package lab_02.day20190905;
 
 public class Student {
     // 1. 属性

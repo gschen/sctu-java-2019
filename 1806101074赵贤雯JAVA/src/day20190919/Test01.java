@@ -1,4 +1,4 @@
-package day20190919;
+package lab_02.day20190919;
 
 public class Test01 {
     //成员变量
