@@ -1,4 +1,4 @@
-package day20190919;
+package lab_02.day20190919;
 
 public class Config {
     static String name = "WangYuLi";
