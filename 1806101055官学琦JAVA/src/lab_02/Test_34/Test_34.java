@@ -14,6 +14,6 @@ public class Test_34 {
         System.out.println(Collections.max(ls)+"\n"+Collections.min(ls));//Collections.sort是排序，
         Collections.sort(ls);
         System.out.println(ls);
-        System.out.println("123");
+
     }
 }
