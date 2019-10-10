@@ -1,6 +1,6 @@
 package lab_02.test_17;
 
-public class arrays {
+public class ArraysTest {
     public static void main(String[] args) {
         int[] data = {53,13,43,63,73,3,23,33,83,93,};//定义一个10大小的数组
         int max=0;//用来保存最大值
