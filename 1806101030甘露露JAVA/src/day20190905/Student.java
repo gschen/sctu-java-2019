@@ -1,4 +1,4 @@
-package day20190905;
+package lab_02.day20190905;
 
 //对学生抽象，所以类名取相应的名字
 public class Student {

@@ -1,4 +1,4 @@
-package day20190919;
+package lab_02.day20190919;
 
 /**
  * Created by Administrator on 2019-9-19.
@@ -17,6 +17,7 @@ public class Test_18 {
         name.charAt(name.length() - 1);
 
         name.indexOf('M');
+        System.out.println("字符串的第一个字符：");
         name.indexOf("crazy");
 
         String[] words = name.split(" ");
