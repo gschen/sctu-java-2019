@@ -1,6 +1,6 @@
-package lab_02.test_016;
+package lab_02.test_16;
 
-public class Reduce extends Calculation{
+public class Ride extends Calculation{
     @Override
     double add(double a, double b) {
         return 0;
@@ -8,12 +8,12 @@ public class Reduce extends Calculation{
 
     @Override
     double reduce(double a, double b) {
-        return a - b;
+        return 0;
     }
 
     @Override
     double ride(double a, double b) {
-        return 0;
+        return a * b;
     }
 
     @Override

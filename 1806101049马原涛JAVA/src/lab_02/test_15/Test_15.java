@@ -1,10 +1,10 @@
-package lab_02.Test_15;
+package lab_02.test_15;
 //15
 public class Test_15 {
     public static void main(String[] args) {
-        StudentInterface1 studentInterface1=new StudentInterface1("小明","男",20,3000);
+        StudentInterface1 studentInterface1=new StudentInterface1("小智","男",20,30000);
         studentInterface1.setFee();
-        TeacherInterface teacherInterface=new TeacherInterface1("小明","男",20,8000);
+        TeacherInterface teacherInterface=new TeacherInterface1("大明","男",30,8000);
         teacherInterface.setPay();
     }
 }

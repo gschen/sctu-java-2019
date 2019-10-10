@@ -1,6 +1,6 @@
 package lab_02;
 
-public class Test_14 {
+public class test_14 {
     public static void main(String[] args) {
         Rectangle2 rectangle2=new Rectangle2(5,6);
         System.out.println(rectangle2.getArea());

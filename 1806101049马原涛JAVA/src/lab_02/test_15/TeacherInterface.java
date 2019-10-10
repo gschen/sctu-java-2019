@@ -1,4 +1,4 @@
-package lab_02.Test_15;
+package lab_02.test_15;
 
 public interface TeacherInterface {
     void setPay();

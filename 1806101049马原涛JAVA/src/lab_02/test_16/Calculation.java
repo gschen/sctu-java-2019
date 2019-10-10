@@ -1,4 +1,4 @@
-package lab_02.test_016;
+package lab_02.test_16;
 
 public abstract class Calculation {
     abstract double add(double a,double b);

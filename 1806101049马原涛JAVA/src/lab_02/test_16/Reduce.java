@@ -1,6 +1,6 @@
-package lab_02.test_016;
+package lab_02.test_16;
 
-public class Except extends Calculation{
+public class Reduce extends Calculation{
     @Override
     double add(double a, double b) {
         return 0;
@@ -8,7 +8,7 @@ public class Except extends Calculation{
 
     @Override
     double reduce(double a, double b) {
-        return 0;
+        return a - b;
     }
 
     @Override
@@ -18,6 +18,6 @@ public class Except extends Calculation{
 
     @Override
     double except(double a, double b) {
-        return a / b;
+        return 0;
     }
 }
