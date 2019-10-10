@@ -1,4 +1,4 @@
-package day20190912;
+package lab_02.day20190912;
 
 public class Student {
     Student(String name,int age,int studentNumber,String studentClass){

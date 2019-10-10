@@ -5,8 +5,6 @@ public class LiFang {
             return a*b*c;
 
         }
-
-
         public static void main(String[] args) {
             float c = count(1,2,3);
             System.out.println("长方体的面积是："+c);

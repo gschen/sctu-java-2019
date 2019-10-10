@@ -1,7 +1,7 @@
 package lab02.Test_08;
 
  interface Usb {//定义一个接口
-     void start();//定义接口的方法
+     void start();//定义接口的方法，不能加大括号{}
      void stop();
 }
  class UsbDiskWriter implements Usb {
@@ -33,6 +33,12 @@ class Mobile implements Usb{
                 UsbDiskWriter A = new UsbDiskWriter();
                 A.start();
                 A.stop();
+                Camera B = new Camera();
+                B.start();
+                B.stop();
+                Mobile C = new Mobile();
+                C.start();
+                C.stop();
             }
         }
 
