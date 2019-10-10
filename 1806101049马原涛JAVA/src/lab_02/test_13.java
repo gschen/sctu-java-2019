@@ -1,6 +1,6 @@
 package lab_02;
 
-public class Test_13 {
+public class test_13 {
     public static void main(String[] args) {
         double []data=new double[6];
         for (int i = 0; i <6 ; i++) {

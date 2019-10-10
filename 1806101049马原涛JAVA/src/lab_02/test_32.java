@@ -13,9 +13,6 @@ public class test_32 {
         person.put("age","25");
         person.put("love","爱学java");
 
-//        for (Map.Entry<String,String> entry:person.entrySet()) {
-//            System.out.println(entry.getKey()+entry.getValue());
-//        }
         Iterator<Map.Entry<String,String> > iterator = person.entrySet().iterator();
         while (iterator.hasNext()){
             Map.Entry<String,String> entry = iterator.next();
