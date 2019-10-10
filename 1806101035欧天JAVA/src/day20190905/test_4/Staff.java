@@ -1,4 +1,4 @@
-package day20190905.test_4;
+package lab_02.day20190905.test_4;
 
 public class Staff {
      String name;

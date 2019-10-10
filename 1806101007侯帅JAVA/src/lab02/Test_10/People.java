@@ -35,3 +35,4 @@ class BeiJingPeople extends People{
      }
  }
 
+
