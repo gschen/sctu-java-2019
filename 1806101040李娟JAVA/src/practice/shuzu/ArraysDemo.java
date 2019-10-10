@@ -30,7 +30,6 @@ public class ArraysDemo {
         //比较  数组元素值是否相等
         System.out.println("equals:"+Arrays.equals(arr, newArr));
 
-
         int[] ab = {6, 17, 92, 32, 58, 22, 84, 66, 36, 33};
         Arrays.sort(ab);
         System.out.println(Arrays.toString(ab));
