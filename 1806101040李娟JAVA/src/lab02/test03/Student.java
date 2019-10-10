@@ -29,13 +29,26 @@ public class Student {
             min=this.math;
         }
 
+        if(this.math< this.English && this.English < this.computer){
+            min=this.math;
+        }
+
         if(this.computer< this.English && this.English < this.math){
             min=this.computer;
         }
 
-        if(this.English< this.computer && this.computer< this.computer){
+        if(this.computer< this.math && this.math < this.English){
+            min=this.computer;
+        }
+
+        if(this.English< this.computer && this.computer< this.math){
             min=this.English;
         }
+
+        if(this.English< this.math && this.math< this.computer){
+            min=this.English;
+        }
+
         return min;
     }
 
@@ -46,7 +59,7 @@ public class Student {
         s1.name="小明";
         s1.computer=70;
         s1.math=69;
-        s1.English=71;
+        s1.English=31;
 
         s1.add();
         s1.average();
