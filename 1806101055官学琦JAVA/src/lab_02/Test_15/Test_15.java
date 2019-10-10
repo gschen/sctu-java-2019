@@ -1,5 +1,8 @@
 package lab_02.Test_15;
 
+import lab_02.test_15.StudentInterface;
+import lab_02.test_15.TeacherInterface;
+
 public class Test_15 {
     public static void main(String[] args) {
         StudentInterface1 studentInterface1=new StudentInterface1("小明","男",20,3000);
