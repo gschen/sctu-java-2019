@@ -29,5 +29,11 @@ public class ArraysDemo {
         int[] newArr = Arrays.copyOf(arr, arr.length);
         //比较  数组元素值是否相等
         System.out.println("equals:"+Arrays.equals(arr, newArr));
+
+
+        int[] ab = {6, 17, 92, 32, 58, 22, 84, 66, 36, 33};
+        Arrays.sort(ab);
+        System.out.println(Arrays.toString(ab));
+        System.out.println("排序后的33的位置：" + Arrays.binarySearch(ab, 33));
     }
 }
