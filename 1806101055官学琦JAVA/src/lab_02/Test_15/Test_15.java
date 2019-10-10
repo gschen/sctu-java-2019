@@ -1,4 +1,7 @@
-package lab_02.test_15;
+package lab_02.Test_15;
+
+import lab_02.test_15.StudentInterface;
+import lab_02.test_15.TeacherInterface;
 
 public class Test_15 {
     public static void main(String[] args) {
