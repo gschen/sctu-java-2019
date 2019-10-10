@@ -1,5 +1,5 @@
 package lab_01;
-//   A
+//   Sum
 //  B C
 // D E F
 //G H I J
