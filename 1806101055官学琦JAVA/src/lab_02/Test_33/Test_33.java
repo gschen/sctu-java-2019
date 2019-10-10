@@ -11,6 +11,7 @@ public class Test_33 {
             String strs=scanner.next();
             list.add(strs);
         }
+        Collections.sort(list);
         System.out.println(list);
     }
 }
