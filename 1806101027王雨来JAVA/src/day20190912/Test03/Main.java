@@ -1,4 +1,4 @@
-package day20190912.Test03;
+package lab_02.day20190912.Test03;
 
 public class Main {
     public static void main(String[] args) {

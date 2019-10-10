@@ -1,4 +1,4 @@
-package day20190919;
+package lab_02.day20190919;
 //光标放在报错处按下alt+enter 再一直回车则会出现新的代码
 public class UsbDiskWriter implements USB{
     @Override

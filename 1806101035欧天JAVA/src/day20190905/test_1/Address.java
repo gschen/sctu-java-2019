@@ -1,4 +1,4 @@
-package day20190905.test_1;
+package lab_02.day20190905.test_1;
 import com.sun.jndi.cosnaming.IiopUrl;
 public class Address {
     //属性(姓名，年龄， 性别)

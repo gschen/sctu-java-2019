@@ -1,4 +1,4 @@
-package day20190905.test_5;
+package lab_02.day20190905.test_5;
 
 public class Cube {
     Cube() {

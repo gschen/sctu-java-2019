@@ -13,7 +13,6 @@ package lab02.Test_04;
     private void getNumb(){
         System.out.println("员工的工号是："+this.numb);
     }
-
     private void getMoney(){
         System.out.println("员工的工资是："+this.money);
     }
@@ -23,7 +22,6 @@ package lab02.Test_04;
     private void sum(){
         System.out.println("增加额度后的工资总额："+(this.up+this.money));
     }
-
     public static void main(String[] args) {
         Staff st= new Staff();
         st.money = 100000;

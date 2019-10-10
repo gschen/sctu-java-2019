@@ -1,4 +1,4 @@
-package day20190919;
+package lab_02.day20190919;
 //实现USB接口
 public class UsbDiskWriter implements USB {//光标 alt enter.有方法
     @Override

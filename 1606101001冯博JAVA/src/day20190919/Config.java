@@ -1,4 +1,4 @@
-package day20190919;
+package lab_02.day20190919;
 
 public class Config {
     //可以专门写一个类放成员变量，不用实例化就可以得到它的值

@@ -1,4 +1,4 @@
-package day20190905;
+package lab_02.day20190905;
 
 public class Test01 {
         static int add(int a,int b){
