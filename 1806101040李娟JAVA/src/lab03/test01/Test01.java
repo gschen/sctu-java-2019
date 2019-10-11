@@ -13,7 +13,6 @@ public class Test01 {
              * 1， 字符流方式读写
              * 2，字节流方式读写
              * */
-
             //字节流方式读
             //Reader Writer
             BufferedReader reader = null;
