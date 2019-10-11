@@ -1,4 +1,4 @@
-package Lab03;
+package Lab03.Test01;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -16,7 +16,7 @@ public class FileTest01 {
                 BufferedReader reader = null;
                 try {
                     reader = new BufferedReader(
-                            new FileReader("D:\\demo.txt")
+                            new FileReader("D:\\test.txt")
                     );
                     String line = null;
                     while (

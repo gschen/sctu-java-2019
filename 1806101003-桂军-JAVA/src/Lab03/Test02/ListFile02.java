@@ -1,4 +1,4 @@
-package Lab03;
+package Lab03.Test02;
 
 import java.io.File;
 
@@ -21,7 +21,6 @@ public class ListFile02 {
         }
 
         public static void main(String[] args) {
-            // TODO Auto-generated method stub
             ListFile02 listfile = new ListFile02();
             listfile.listJavaFile("D:\\Program Files\\Java\\jdk-12");
         }
