@@ -46,7 +46,7 @@ class Worker extends Test_35{
         return days*dailySalary;
     }
 }
-public class Test_35Demo{
+class Test_35Demo{
     public static void main(String[] args) {
         Manager m=new Manager("张三",10000);
         Salesman s=new Salesman("李四",2000,50,80);

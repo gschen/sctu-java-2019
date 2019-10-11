@@ -48,6 +48,7 @@ public class Test02 {
         } finally {
 
             try {
+                // 删除reslutSet.close();
                 statement.close();
                 connection.close();
             } catch (SQLException e) {
