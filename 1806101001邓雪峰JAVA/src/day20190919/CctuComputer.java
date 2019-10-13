@@ -1,4 +1,4 @@
 package day20190919;
 
-public class CctuComputer {
+public class CctuComputer extends Gymnastic{
 }
