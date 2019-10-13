@@ -1,4 +1,4 @@
-package lab01;
+package lab_01;
 import java.io.StringReader;
 import java.util.Scanner;
 public class Test12 {
