@@ -1,4 +1,4 @@
-package src.day20191011;
+package src.Practice.day20191011;
 
 import java.sql.*;
 
@@ -9,8 +9,8 @@ public class Test02 {
         Connection connection = null;
         Statement statement = null;
         ResultSet resultSet = null;
-        //1
-        String sql = "INSERT INTO t_users(username,password)VALUES('sad','123')";
+        //1增加
+        String sql = "INSERT INTO t_users(username,password)VALUES('刘','123')";
 
         try {
             //0.加载数据库驱动程序
@@ -19,7 +19,7 @@ public class Test02 {
             connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/java2019?serverTimezone=UTC",//数据库连接字符串
                     "root",
-                    "1914571065lyj"//写你自己的账号和密码
+                    "1914571065lyj"//写自己的账号和密码
             );
 
             System.out.println();
@@ -35,7 +35,6 @@ public class Test02 {
             e.printStackTrace();
         }finally {
             try {
-
                 statement.close();
                 connection.close();
             } catch (SQLException e) {

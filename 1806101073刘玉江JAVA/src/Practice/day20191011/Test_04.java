@@ -1,4 +1,4 @@
-package src.day20191011;
+package src.Practice.day20191011;
 
 import java.sql.*;
 
@@ -9,7 +9,7 @@ public class Test_04 {
         Connection connection = null;
         Statement statement = null;
         ResultSet resultSet = null;
-        //1
+        //1更新
         String sql = "UPDATE t_users SET username='liuyujiang',password = '1914571065' WHERE id = 5";
 
         try {

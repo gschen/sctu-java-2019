@@ -1,4 +1,4 @@
-package src.day20191011;
+package src.Practice.day20191011;
 
 import java.sql.*;
 
@@ -9,7 +9,7 @@ public class Test01 {
         Connection connection = null;
         Statement statement = null;
         ResultSet resultSet = null;
-        //1
+        //1查询
         String sql = "select * from t_users";
         try {
             //0.加载数据库驱动程序
@@ -29,6 +29,7 @@ public class Test01 {
                 String username = resultSet.getString(2);
                 String password = resultSet.getString(3);
                 System.out.println(id + " - " + username + " - " + password);
+
             }
 
 

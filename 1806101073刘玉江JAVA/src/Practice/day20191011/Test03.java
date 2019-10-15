@@ -1,4 +1,4 @@
-package src.day20191011;
+package src.Practice.day20191011;
 
 import java.sql.*;
 
@@ -9,7 +9,7 @@ public class Test03 {
         Connection connection = null;
         Statement statement = null;
         ResultSet resultSet = null;
-        //1
+        //1删除
         String sql = "DELETE FROM t_users WHERE id = 9";
 
         try {
