@@ -1,4 +1,4 @@
-package lab01;
+package lab_01;
 
 public class Test_12 {public static void main(String[] args) {
     int number = 100;     // 由于水仙花数是三位数，故由100开始算起

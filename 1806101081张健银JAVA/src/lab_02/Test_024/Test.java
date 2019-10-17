@@ -1,9 +1,9 @@
 package lab_02.Test_024;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Scanner;
+        import java.text.ParseException;
+        import java.text.SimpleDateFormat;
+        import java.util.Calendar;
+        import java.util.Scanner;
 
 //24、 	编程实现：计算两个日期的天数之差。编写Java应用程序，来计算任意两个日期的天数之差。
 //        要求：两个日期用字符串形式输入（比如输入“20100101”表示2010年1月1日），需要将日期字符串的年、月、日分别转换为数字形式

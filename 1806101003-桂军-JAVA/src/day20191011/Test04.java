@@ -11,7 +11,8 @@ public class Test04 {
         Statement statement = null;
         /*String resultSet = null;*/
         //1
-        String sql = "update t_users set username='桂军' where id = 1";//更新数据
+        String sql = "update t_users set username='四川旅游学院' wh" +
+                "ere id = 1";//更新数据
 
 
         try {
