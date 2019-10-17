@@ -1,4 +1,4 @@
-package lab01;
+package lab_01;
 
 public class Test_04_3 {
     //使用do while语句编写一个求和程序
