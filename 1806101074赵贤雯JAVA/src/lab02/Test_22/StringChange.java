@@ -1,6 +1,8 @@
-package lab02.Test_22;
+package lab_02.test_22;
+
 import java.util.Scanner;
-public class StringChange {
+
+public class stringchange {
     public static void main(String[] args) {
         System.out.println("请输入一个字符串：");
         Scanner scanner = new Scanner(System.in);
@@ -19,6 +21,6 @@ public class StringChange {
             }
         }
         System.out.println(stringBuffer.toString());
-
     }
 }
+
