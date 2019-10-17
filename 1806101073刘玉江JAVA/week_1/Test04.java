@@ -12,7 +12,4 @@ public class Test04 {
             e.printStackTrace();
         }
     }
-
-
-
 }
