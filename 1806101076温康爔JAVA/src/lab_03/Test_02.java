@@ -8,12 +8,12 @@ public class Test_02 {
         file.mkdir();
         File[]f1=file.listFiles();
         for (int i=0;i<f1.length;i++){
-           if(f1[i].isDirectory()){
+            if(f1[i].isDirectory()){
                System.out.println("dirctory is"+f1[i].getName());
-           }
-           else{
+            }
+            else{
                System.out.println("file is"+f1[i].getName());
-           }
+            }
         }
     }
 }
