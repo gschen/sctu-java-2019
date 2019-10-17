@@ -1,4 +1,4 @@
-package lab01;
+package lab_01;
 
 import java.lang.reflect.Type;
 public class test_11 {

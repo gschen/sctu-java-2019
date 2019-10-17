@@ -1,6 +1,6 @@
-package lab02;
+package lab02.Test_01;
 
-public class Adress {
+public class Test_01 {
     String country;
     String province;
     String city;
@@ -12,7 +12,7 @@ public class Adress {
     }
 
     public static void main(String[] args) {
-        Adress adress = new Adress();
+        Test_01 adress = new Test_01();
         adress.country = "中国";
         adress.province = "四川";
         adress.city = "成都";
