@@ -1,6 +1,6 @@
 package lab_02.test_29;
 
-public class ArrayIndexOutOfBoundsException {
+public class ArrayIndexOutOfBoundsException_ {
 
     public static void main(String[] args) {
 
