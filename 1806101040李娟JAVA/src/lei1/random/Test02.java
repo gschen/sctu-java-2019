@@ -13,6 +13,7 @@ public class Test02 {
             v0 = rand.nextInt(3);
             System.out.println("第" + i + "个随机数=" + v0);
 
+
             switch (v0){
                 case 0:
                     n0++;
