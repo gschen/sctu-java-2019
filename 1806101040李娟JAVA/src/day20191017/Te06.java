@@ -15,7 +15,7 @@ public class Te06  extends  Thread{
 
 
         for (int i = startNo; i <= startNo +20; i++) {
-            System.out.println(this.getName() + i);
+            System.out.println(this.getName() + i);    // 继承类才有this.getName
         }
 
         try {
