@@ -1,4 +1,4 @@
-package week_1;
+package src.week_1;
 
 /*请分别用 if-else 语句和 switch 语句编写能够实现以下功能的程序。
 某同学某门课的成绩可能的结果为1，2，3，4，和5。

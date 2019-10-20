@@ -1,4 +1,4 @@
-package week_1;
+package src.week_1;
 
 import java.io.*;
 
