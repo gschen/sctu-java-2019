@@ -13,7 +13,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
+    <head>
     <title>Title</title>
 </head>
 <body>
@@ -60,16 +60,13 @@
         <td>编号</td>
         <td>姓名</td>
         <td>密码</td>
+        <td>删除操作</td>
     </tr>
-    <tr>
-        <td>1</td>
-        <td>桂军</td>
-        <td>123456</td>
-    </tr>
+
     <%
         for (User user : userList){
             System.out.println(user.getId()+user.getUsername()+user.getPassword());
-            out.write("<tr><td>"+user.getId()+"</td><td>"+user.getUsername()+"</td><td>"+user.getPassword()+"</td></tr>");
+            out.write("<tr><td>"+user.getId()+"</td><td>"+user.getUsername()+"</td><td>"+user.getPassword()+"</td><td><a href='deleteUser.jsp?userId="+user.getId()+"'>删除</a></td></tr>");
         }
     %>
 </table>
