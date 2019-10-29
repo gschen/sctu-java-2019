@@ -42,7 +42,6 @@ public class UserDaoImpl implements UserDao01 {
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-
         }
     }
 
