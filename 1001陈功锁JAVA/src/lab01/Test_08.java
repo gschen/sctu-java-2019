@@ -1,4 +1,4 @@
-package lab_01;
+package lab01;
 
 /**
  * Created by Administrator on 2019-8-30.
