@@ -2,7 +2,7 @@ package lab_02.test_16;
 
 import java.util.Scanner;
 
-public class Add extends Calculation {
+public class Add extends lab_02.test_16.Calculation {
 
 
     @Override
