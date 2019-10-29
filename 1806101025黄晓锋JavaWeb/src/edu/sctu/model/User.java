@@ -1,12 +1,16 @@
 package edu.sctu.model;
 
 public class User {
+
     private int id;
     private String username;
     private String password;
 
-    public User(String username, String password) {
-        this.username = username;
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
         this.password = password;
     }
 
@@ -17,7 +21,8 @@ public class User {
         this.password = password;
     }
 
-//生成Getter and Setter
+
+    //生成这三个属性的getter和setter
     public int getId() {
         return id;
     }
@@ -34,11 +39,8 @@ public class User {
         this.username = username;
     }
 
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
+    public User(String username, String password) {
+        this.username = username;
         this.password = password;
     }
 }
