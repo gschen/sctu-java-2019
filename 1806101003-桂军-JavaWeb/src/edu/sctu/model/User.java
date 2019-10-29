@@ -5,6 +5,10 @@ public class User {
     private String username;
     private String password;
 
+    public User(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
 
     //生成构造函数
     public User(int id, String username, String password) {
