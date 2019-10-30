@@ -69,6 +69,9 @@
             out.write("<tr><td>"+user.getId()+"</td><td>"+user.getUsername()+"</td><td>"+user.getPassword()+"</td><td><a href='deleteUser.jsp?userId="+user.getId()+"'>删除</a></td></tr>");
         }
     %>
+
+
 </table>
+<a href="test05.jsp">插入</a>
 </body>
 </html>
