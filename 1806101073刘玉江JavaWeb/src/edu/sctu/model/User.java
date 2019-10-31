@@ -12,11 +12,17 @@ public class User {
         this.password = password;
     }
 
+    public User(int id) {
+        this.id = id;
+    }
+
     public User(int id, String username, String password) {
         this.id = id;
         this.username = username;
         this.password = password;
     }
+
+
 
     //生成这三个属性的getter和setter。
 

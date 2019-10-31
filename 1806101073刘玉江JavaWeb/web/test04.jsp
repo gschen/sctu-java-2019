@@ -26,6 +26,9 @@
             <td>id</td>
             <td>username</td>
             <td>password</td>
+            <td>删除</td>
+            <td>更新</td>
+
         </tr>
         <%
         for (User user:userList){
@@ -33,6 +36,8 @@
                     "            <td>"+user.getId()+"</td>\n" +
                     "            <td>"+user.getUsername()+"</td>\n" +
                     "            <td>"+user.getPassword()+"</td>\n" +
+                    "<td><a href=\"deletUser.jsp?userId="+user.getId()+"\">删除</a></td>\n" +
+                    "<td><a href=\"updateUser1.jsp?userId="+user.getId()+"\">更新</a></td>"+
                     "        </tr>");
         }
         %>
