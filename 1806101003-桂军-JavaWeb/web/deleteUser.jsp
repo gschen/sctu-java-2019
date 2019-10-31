@@ -28,5 +28,6 @@
 
 
 %>
+<a href="test02.jsp" >返回</a>
 </body>
 </html>
