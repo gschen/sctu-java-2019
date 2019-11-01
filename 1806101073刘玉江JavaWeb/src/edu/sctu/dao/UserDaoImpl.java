@@ -118,7 +118,7 @@ public class UserDaoImpl implements UserDao {
         Connection connection = null;
         Statement statement = null;
         ResultSet resultSet = null;
-        String sql = "update t_users set username = '"+user.getUsername()+"' where id = "+id+"";
+        String sql = "update t_users set username = '"+user.getUsername()+"' where id = 1";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection(
