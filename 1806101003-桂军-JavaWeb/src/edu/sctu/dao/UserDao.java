@@ -1,4 +1,4 @@
-package edu.sctu.dao.UserDao;
+package edu.sctu.dao;
 
 import edu.sctu.model.User;
 

@@ -1,5 +1,5 @@
-<%@ page import="edu.sctu.dao.UserDao.UserDao" %>
-<%@ page import="edu.sctu.dao.UserDao.UserDaoImpl" %><%--
+<%@ page import="edu.sctu.dao.UserDao" %>
+<%@ page import="edu.sctu.dao.UserDaoImpl" %><%--
   Created by IntelliJ IDEA.
   User: Agoni
   Date: 2019/10/29
