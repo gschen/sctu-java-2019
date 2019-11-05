@@ -13,6 +13,7 @@
 </head>
 <body>
 <%
+    request.setCharacterEncoding("gb2312");
     //1.得到删除用户的操作
     String id = request.getParameter("userId");
     System.out.println(id);
