@@ -70,7 +70,7 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public void deleteById(int id) {
+    public List<User> deleteById(int id) {
         //sql = "delete from t_user where id = ''"
         //3+1
         //3
@@ -110,6 +110,7 @@ public class UserDaoImpl implements UserDao {
             }
 
         }
+        return null;
     }
 
     @Override

@@ -22,7 +22,7 @@ public class UserDaoImpl2 implements UserDao{
     }
 
     @Override
-    public void deleteById(int id) throws SQLException {
+    public List<User> deleteById(int id) throws SQLException {
         String sql = "DELETE FROM t_users WHERE id = "+id+"";
         Statement statement = databaseManager.open();
         try {
@@ -31,6 +31,7 @@ public class UserDaoImpl2 implements UserDao{
             e.printStackTrace();
         }
         databaseManager.close();
+        return null;
     }
 
     @Override
@@ -39,7 +40,7 @@ public class UserDaoImpl2 implements UserDao{
     }
 
     @Override
-    public List<User> selectAll() throws ClassNotFoundException, SQLException {
+    public List<User> selectAll()  {
         return null;
     }
 }
