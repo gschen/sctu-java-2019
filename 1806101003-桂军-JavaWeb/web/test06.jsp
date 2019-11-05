@@ -1,4 +1,5 @@
-<%--
+<%@ page import="edu.sctu.model.User" %>
+<%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: Agoni
   Date: 2019/11/1
@@ -17,8 +18,13 @@
         <td>用户名</td>
         <td>密码</td>
         <td>操作</td>
-
     </tr>
+    <%
+        List<User> userList = (List<User>) request.getAttribute("userList");
+        for (User user : userList) {
+            out.write("<tr><td>"+user.getId()+"</td><td>"+user.getUsername()+"</td><td>"+user.getPassword()+"</td><td><a href='deleteUser.jsp?userId="+user.getId()+"'>删除</a></td></tr>");
+        }
+    %>
 </table>
 </body>
 </html>

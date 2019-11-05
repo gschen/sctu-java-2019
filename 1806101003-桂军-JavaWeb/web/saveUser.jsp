@@ -14,7 +14,7 @@
 </head>
 <body>
 <%
-
+    request.setCharacterEncoding("gb2312");
     //1.接收用户输入的信息
     String username = request.getParameter("username");
     String password = request.getParameter("password");
