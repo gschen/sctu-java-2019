@@ -26,7 +26,8 @@ public class Userservletv2 extends HttpServlet {
 
         req.setAttribute("userList",userList);
         //跳转
-        req.getRequestDispatcher("/Test06.jsp").forward(req,resp);
+        //req.getRequestDispatcher("/Test06.jsp").forward(req,resp);
+        req.getRequestDispatcher("/test08.jsp").forward(req,resp);
 
     }
 }

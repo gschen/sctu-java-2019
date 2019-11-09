@@ -8,7 +8,7 @@ import java.sql.Statement;
 public class DatabaseManager {
     Connection connection;
     Statement statement;
-    public Statement open() throws SQLException {
+    public  final Statement open()  {
         //打开数据库
         //0.加载数据库驱动程序
         try {

@@ -22,7 +22,7 @@ public class UserDaoImpl2 implements UserDao{
     }
 
     @Override
-    public List<User> deleteById(int id) throws SQLException {
+    public List<User> deleteById(String id) throws SQLException {
         String sql = "DELETE FROM t_users WHERE id = "+id+"";
         Statement statement = databaseManager.open();
         try {
@@ -35,8 +35,16 @@ public class UserDaoImpl2 implements UserDao{
     }
 
     @Override
-    public void updateUser(User user) {
-
+    public void updateUser(String id,String username,String password) {
+        System.out.println(id+username+password);
+        String sql = "update t_users set username = '"+username+"',password = '"+password+"' where id  = '"+id+"'";
+        Statement statement = databaseManager.open();
+        try {
+            statement.executeUpdate(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        databaseManager.close();
     }
 
     @Override

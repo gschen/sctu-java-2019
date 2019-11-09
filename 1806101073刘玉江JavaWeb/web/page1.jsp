@@ -29,15 +29,12 @@
     <tr>
         <td>姓名</td>
     </tr>
-    <%
-        for (String name:nameList){
-        out.write("<tr><td>"+name+"</td></tr>");
-        }
-    %>
+
 
     <c:forEach var="name" items="${sessionScope.names}">
         <tr><td>${name}</td></tr>
     </c:forEach>
+
 </table>
 
 

@@ -17,7 +17,8 @@
 String id = request.getParameter("userId");
     System.out.println(id);
     UserDao userDao = new UserDaoImpl();
-    userDao.deleteById(Integer.parseInt(id));
+    userDao.deleteById(id);
 %>
+<a href="userLlist.jsp">返回列表</a>
 </body>
 </html>

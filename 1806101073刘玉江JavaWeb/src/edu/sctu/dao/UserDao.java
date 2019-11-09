@@ -8,8 +8,8 @@ import java.util.List;
 //database access object
 public interface UserDao {
     void saveUser(User user) throws SQLException;
-    List<User> deleteById(int id) throws SQLException;
-    void updateUser(User user);
+    List<User> deleteById(String id) throws SQLException;
+    void updateUser(String id,String username,String password);
 
     List<User> selectAll() ;
 }

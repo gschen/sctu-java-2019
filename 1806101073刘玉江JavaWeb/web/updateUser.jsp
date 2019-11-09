@@ -1,6 +1,7 @@
 <%@ page import="edu.sctu.dao.UserDao" %>
 <%@ page import="edu.sctu.dao.UserDaoImpl" %>
-<%@ page import="edu.sctu.model.User" %><%--
+<%@ page import="edu.sctu.model.User" %>
+<%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: LiuYuJiang
   Date: 2019/10/29
@@ -15,19 +16,15 @@
 <body>
 
 <%
-    String username = request.getParameter("username");
-    String password = request.getParameter("password");
-
-//1增加
-
-    System.out.println(username+password);
-    User user = new User(username,password);
-    UserDao userDao = new UserDaoImpl();
-    userDao.updateUser(user);;
-
-
-
-
+    String id = request.getParameter("userId");
+    System.out.println(id);
 %>
+<a href="userLlist.jsp">返回列表</a>
+<form method="post" action="doUpdate.jsp">
+    id:<input type="text" name = "userId" value="<%=id%>">
+    用户名：<input type="text" name="username">
+    密码：<input type="text" name="password">
+    <input type="submit" value="更新">
+</form>
 </body>
 </html>
