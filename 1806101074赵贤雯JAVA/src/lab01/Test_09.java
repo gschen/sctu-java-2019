@@ -1,4 +1,4 @@
-package lab01;
+package lab_01;
 //9、	请编写程序实现如图1-1所示的效果。
 public class Test_09 {
     public static void main(String[] args) {

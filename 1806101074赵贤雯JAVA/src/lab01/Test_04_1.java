@@ -1,4 +1,4 @@
-package lab01;
+package lab_01;
 
 public class Test_04_1 {
     //使用for语句编写一个求和程序sum=1+2+3+4+……n

@@ -1,4 +1,4 @@
-package week_1;
+package src.week_1;
 //用for, while, do while编写求和程序
 public class Test_2_12 {
     public static void main(String[] args) {

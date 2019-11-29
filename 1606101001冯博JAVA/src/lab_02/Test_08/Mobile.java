@@ -1,8 +1,8 @@
 package lab_02.Test_08;
 
-import day20190919.Usb;
 
-public class Mobile implements Usb{
+
+public class Mobile implements USB{
     @Override
     public void start() {
         System.out.println("Usb Disk Writer start!");
