@@ -15,12 +15,12 @@ public class Test_31 {
         //List集合来保存数据
         //泛型
         List<String> list = new ArrayList<String>();
-        list.add("houshuainiubi1");
-        list.add("houshuainiubi2");
-        list.add("houshuainiubi3");
-        list.add("houshuainiubi4");
-        list.add("houshuainiubi5");
-        list.add("houshuainiubi6");
+        list.add("nb1");
+        list.add("nb2");
+        list.add("nb3");
+        list.add("nb4");
+        list.add("nb5");
+        list.add("nb6");
 
         System.out.println(list);
         //ctrl+ h/b    alt+enter
