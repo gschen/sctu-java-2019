@@ -6,6 +6,13 @@ public class User {
     private String password;
 
     //生成构造函数
+
+
+    public User(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
+
     public User(int id, String username, String password) {
         this.id = id;
         this.username = username;
@@ -37,4 +44,5 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
 }

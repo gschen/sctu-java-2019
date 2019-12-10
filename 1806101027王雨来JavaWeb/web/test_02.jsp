@@ -61,12 +61,13 @@
 
 
 %>
-
+<a href="test_05.jsp">+</a>
 <table border="3">
     <tr>
         <td width="60px">编号</td>
         <td width="100px">用户名</td>
         <td>密码</td>
+        <td>删除操作</td>
     </tr>
 
     <%
@@ -76,7 +77,8 @@
         }*/
 
         for(User user:userList){
-            out.write("<tr><td>" + user.getId()+"</td><td>"+user.getUsername()+"</td><td>u"+user.getPassword()+"</td></tr>");
+            out.write("<tr><td>" + user.getId()+"</td><td>"+user.getUsername()
+                    +"</td><td>u"+user.getPassword()+"</td><td><a href='deleteUser.jsp?userId="+user.getId()+"'>删除</a></td></tr>");
         }
     %>
 </table>
