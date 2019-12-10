@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: LiuYuJiang
-  Date: 2019/11/29
-  Time: 14:26
+  Date: 2019/11/19
+  Time: 9:28
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,10 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-<div style="margin: 0 auto;padding-top: 50px;width: 500px;height: 500px;text-align: center;">
+THis is page 1.
+<jsp:forward page="/ch7/page2.jsp">
+    <jsp:param name="address" value="sctu"/>
 
-    <h1>hello jsp</h1>
-</div>
-
+</jsp:forward>
 </body>
 </html>

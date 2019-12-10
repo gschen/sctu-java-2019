@@ -16,8 +16,7 @@
 <%
     String id = request.getParameter("userId");
     System.out.println(id);
-    UserDao userDao = new UserDaoImpl();
-    userDao.updateUser(parseInt(id));
+
 %>
 <form action="updateUser.jsp" method="post">
     用户名：<input type="text" name = "username" placeholder="用户名">
