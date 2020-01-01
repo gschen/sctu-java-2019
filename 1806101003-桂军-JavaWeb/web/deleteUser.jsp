@@ -1,5 +1,5 @@
-<%@ page import="edu.sctu.dao.UserDao.UserDao" %>
-<%@ page import="edu.sctu.dao.UserDao.UserDaoImpl" %><%--
+<%@ page import="edu.sctu.dao.UserDao" %>
+<%@ page import="edu.sctu.dao.UserDaoImpl" %><%--
   Created by IntelliJ IDEA.
   User: Agoni
   Date: 2019/10/29
@@ -13,6 +13,7 @@
 </head>
 <body>
 <%
+    request.setCharacterEncoding("gb2312");
     //1.得到删除用户的操作
     String id = request.getParameter("userId");
     System.out.println(id);
@@ -28,5 +29,6 @@
 
 
 %>
+<a href="test02.jsp" >返回</a>
 </body>
 </html>

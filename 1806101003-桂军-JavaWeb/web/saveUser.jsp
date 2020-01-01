@@ -1,5 +1,5 @@
-<%@ page import="edu.sctu.dao.UserDao.UserDao" %>
-<%@ page import="edu.sctu.dao.UserDao.UserDaoImpl" %>
+<%@ page import="edu.sctu.dao.UserDao" %>
+<%@ page import="edu.sctu.dao.UserDaoImpl" %>
 <%@ page import="edu.sctu.model.User" %><%--
   Created by IntelliJ IDEA.
   User: Agoni
@@ -14,7 +14,7 @@
 </head>
 <body>
 <%
-
+    request.setCharacterEncoding("gb2312");
     //1.接收用户输入的信息
     String username = request.getParameter("username");
     String password = request.getParameter("password");
@@ -28,5 +28,6 @@
     userDao.saveUser(user);
 
 %>
+<a href="test02.jsp" >返回</a>
 </body>
 </html>

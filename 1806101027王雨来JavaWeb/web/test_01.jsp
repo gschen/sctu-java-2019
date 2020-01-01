@@ -22,7 +22,6 @@
     <%
         for (int i = 0; i < 10; i++) {
             out.write("<tr><td>" + ( i + 1 )+"</td><td>李四狗</td><td>123456</td></tr>");
-
         }
     %>
 </table>

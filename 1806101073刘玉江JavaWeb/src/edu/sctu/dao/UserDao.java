@@ -7,8 +7,9 @@ import java.util.List;
 
 //database access object
 public interface UserDao {
-    void saveUser(User user);
-    void deleteById(int id);
-    void updateUser(User user);
-    List<User> selectAll() throws ClassNotFoundException, SQLException;
+    void saveUser(User user) throws SQLException;
+    List<User> deleteById(String id) throws SQLException;
+    void updateUser(String id,String username,String password);
+
+    List<User> selectAll() ;
 }

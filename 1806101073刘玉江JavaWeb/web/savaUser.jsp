@@ -17,19 +17,20 @@
 <%!
 
 %><%
-
+    String id = request.getParameter("id");
     String username = request.getParameter("username");
     String password = request.getParameter("password");
 
     //1增加
 
     System.out.println(username+password);
-    User user = new User(username,password);
+    User user = new User(id,username,password);
     UserDao userDao = new UserDaoImpl();
     userDao.saveUser(user);
 
 
 %>
 保存成功
+<a href="userLlist.jsp"> 返回列表</a>
 </body>
 </html>

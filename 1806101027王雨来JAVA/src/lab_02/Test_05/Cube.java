@@ -20,7 +20,4 @@ public class Cube {
         double v = this.length * this.width * this.height;
         System.out.println(v);
     }
-
-
-
 }

@@ -26,7 +26,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public void saveUser(User user) {
-        //sql = "insert into t_users(username,password)values('','')";
+        
         //3+1
         //3
         Connection connection = null;
@@ -34,7 +34,7 @@ public class UserDaoImpl implements UserDao {
         ResultSet resultSet = null;
         //1增加
 
-        String sql = "INSERT INTO t_users(username,password)VALUES('"+user.getUsername()+"','"+user.getPassword()+"')";
+        String sql = "INSERT INTO t_users(id,username,password)VALUES('"+user.getId()+"','"+user.getUsername()+"','"+user.getPassword()+"')";
 
         try {
             //0.加载数据库驱动程序
@@ -70,13 +70,90 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public void deleteById(int id) {
+    public List<User> deleteById(String id) {
         //sql = "delete from t_user where id = ''"
+        //3+1
+        //3
+        Connection connection = null;
+        Statement statement = null;
+        ResultSet resultSet = null;
+        //1删除
+        String sql = "DELETE FROM t_users WHERE id = "+id+"";
+
+        try {
+            //0.加载数据库驱动程序
+            Class.forName("com.mysql.jdbc.Driver");
+            //1.connection
+            connection = DriverManager.getConnection(
+                    "jdbc:mysql://localhost:3306/java2019?serverTimezone=UTC",//数据库连接字符串
+                    "root",
+                    "1914571065lyj"//写你自己的账号和密码
+            );
+            //2.statement
+            statement = connection.createStatement();
+            //3.update
+            statement.executeUpdate(sql);
+            System.out.println();
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            try {
+
+                statement.close();
+                connection.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+
+            }
+
+        }
+        return null;
     }
 
     @Override
-    public void updateUser(User user) {
-        //sql = "update t_users set username = liu where id = ''";
+    public void updateUser(String id,String username,String password) {
+        Connection connection = null;
+        Statement statement = null;
+        ResultSet resultSet = null;
+        //1增加
+
+        String sql = "update t_users set username = '"+username+"'，password = '"+password+"' where id = '"+id+"'";
+
+        try {
+            //0.加载数据库驱动程序
+            Class.forName("com.mysql.jdbc.Driver");
+            //1.connection
+            connection = DriverManager.getConnection(
+                    "jdbc:mysql://localhost:3306/java2019?serverTimezone=UTC",//数据库连接字符串
+                    "root",
+                    "1914571065lyj"//写自己的账号和密码
+            );
+
+            System.out.println();
+            //2.statement
+            statement = connection.createStatement();
+            //3.update
+            statement.executeUpdate(sql);
+
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            try {
+                statement.close();
+                connection.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+
+            }
+
+        }
+
 
     }
 
@@ -100,7 +177,7 @@ public class UserDaoImpl implements UserDao {
             resultSet = statement.executeQuery(sql);
 
             while (resultSet.next()){
-                int id = resultSet.getInt(1);
+                String id = resultSet.getString(1);
                 String username = resultSet.getString(2);
                 String password = resultSet.getString(3);
 

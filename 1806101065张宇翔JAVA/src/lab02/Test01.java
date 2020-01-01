@@ -8,7 +8,7 @@ public class Test01 {
             String street;
             String zipcode;
 
-            void printInfo() {
+            void printInfo() {                //无返回值调用函数，仅输出而不赋值，需先声明
                 System.out.println("国家： " + this.country);
                 System.out.println("省份： " + this.province);
                 System.out.println("城市: " + this.city);
@@ -21,6 +21,7 @@ public class Test01 {
                 sctu.country = "China";
                 sctu.province = "Sichuan";
                 sctu.city = "Chengdu";
+                sctu.street = "longquanyi";
                 sctu.zipcode = "610100";
 
                 sctu.printInfo();

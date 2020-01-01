@@ -13,9 +13,12 @@
   </head>
   <body>
 
-  这是一个JSP文件。<table>
+  这是一个JSP文件。
+  <a href="jsp2/userList.jsp">用户列表</a>
+  <table>
   <%
       out.write("hello,world!");
+
   %>
   <%--</table>
   <%

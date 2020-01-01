@@ -1,5 +1,5 @@
 import java.sql.*;
-
+//已经没得啥子用的东西
 public class Database1 {
     public static void main(String[] args) {
         Connection connection = null;
