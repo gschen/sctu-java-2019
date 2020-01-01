@@ -1,9 +1,8 @@
 package day20191011;
 
-import javax.xml.transform.Result;
 import java.sql.*;
 
-public class Test_01 {
+public class Test_04 {
     public static void main(String[] args) {
 
 
@@ -15,18 +14,18 @@ public class Test_01 {
         ResultSet resultSet = null;
 
         // 1
-        String sql = "select * from t_users";
+        String sql = "insert into t_users(username, password) values ('zhangsan', '123456')";
 
 
         try {
             // 0. 加载数据库驱动程序
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
             // 1. connection
             connection = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/javaweb?serverTimezone=UTC", // 数据库连接字符串
+                    "jdbc:mysql://localhost:3306/java2019", // 数据库连接字符串
                     "root",
-                    "123456" //写你自己的账号和密码
+                    "sctu123456" //写你自己的账号和密码
 
                     // 远程服务器信息
 //              "jdbc:mysql://47.104.80.155:3306/javaweb", // 数据库连接字符串
@@ -38,17 +37,7 @@ public class Test_01 {
             statement = connection.createStatement();
 
             // 3. resultSet
-            resultSet = statement.executeQuery(sql);
-
-            while (resultSet.next()) {
-
-                int id = resultSet.getInt(1);
-                String username = resultSet.getString(2);
-                String password = resultSet.getString(3);
-
-                System.out.println(id + " - " + username + " - " + password);
-
-            }
+            statement.executeUpdate(sql);
 
 
         } catch (ClassNotFoundException e) {
@@ -58,12 +47,14 @@ public class Test_01 {
         } finally {
 
             try {
-                resultSet.close();
+                // 删除reslutSet.close();
                 statement.close();
                 connection.close();
             } catch (SQLException e) {
                 e.printStackTrace();
             }
         }
+
+
     }
 }

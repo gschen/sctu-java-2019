@@ -1,9 +1,8 @@
 package day20191011;
 
-import javax.xml.transform.Result;
 import java.sql.*;
 
-public class Test_01 {
+public class Test_03 {
     public static void main(String[] args) {
 
 
@@ -24,7 +23,7 @@ public class Test_01 {
 
             // 1. connection
             connection = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/javaweb?serverTimezone=UTC", // 数据库连接字符串
+                    "jdbc:mysql://localhost:3306/javaweb", // 数据库连接字符串
                     "root",
                     "123456" //写你自己的账号和密码
 
